@@ -1,4 +1,5 @@
 import Resturant from "./components/basics/Resturant";
+import './components/basics/style.css';
 
 function App() {
 
