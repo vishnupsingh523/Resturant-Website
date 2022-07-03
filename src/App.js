@@ -1,17 +1,10 @@
-import React, {useState} from 'react';
+import Resturant from "./components/basics/Resturant";
 
-function App(){
-  const [number, setNumber] = useState(0);
-  let num = number;
-  const incrementNum = ()=>{
-    num++;
-    setNumber(num);
-  };
+function App() {
 
   return(
     <div>
-      <h1>{number}</h1>
-      <button onClick={incrementNum}>Click Me</button>
+      <Resturant />
     </div>
   )
 };
